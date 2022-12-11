@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML Basic Links</title>
+
+	<style>
+		a:link 
+		{
+			color: deepskyblue;
+			background-color: transparent;
+			text-decoration: none;
+		}
+		a:visited
+		{
+			color: beige;
+			background-color: transparent;
+		}	
+		a:hover
+		{
+			color: greenyellow;
+			background-color: orangered;
+			text-decoration: none;
+		}
+		
+	</style>
+</head>
+<body>
+
+	<!--<a href="url"></a>-->
+
+	<h2>INTERNAL LINKS</h2>
+	<a href="html_images.html">HTML IMAGE</a>
+
+	<h2>EXTERNAL LINKS</h2>
+	<a href="https://istudent.uitm.edu.my/index_isp.htm">UiTM MALAYSIA</a>
+
+	<h2>ATTRIBUTES</h2>
+
+	<!--_blank, _self, _parent, _top -->
+
+	<a href="https://istudent.uitm.edu.my/index_isp.htm" target="_blank"> ATTRIBUTES BLANK</a> <br>
+	<a href="https://istudent.uitm.edu.my/index_isp.htm" target="_self">ATTRIBUTES SELF</a> <br>
+	<a href="https://istudent.uitm.edu.my/index_isp.htm" target="_parent">ATTRIBUTES PARENT</a> <br>
+	<a href="https://istudent.uitm.edu.my/index_isp.htm" target="_top">ATTRIBUTES TOP</a> <br>
+
+	<h2>IMAGE AS LINKS</h2>
+	<a href="html_images.html" target="_blank"><img src="images/homepage.png"></a>
+
+	<h2>BUTTON AS LINKS</h2>
+	<button onclick="document.location='html_image.html">HTML IMAGE</button>
+
+	<h2>LINK TITLE</h2>
+	<a href="https://istudent.uitm.edu.my/index_isp.htm" target="_blank" title="Link to website UiTM">UiTM MALAYSIA</a>
+
+
+</body>
+</html>
